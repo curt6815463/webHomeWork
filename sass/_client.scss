@@ -1,1 +1,31 @@
-import ""
+@import "global";
+
+.client{
+  text-align: center;
+  @extend %padding-fix;
+  @include banner-background("banner.png");
+  .clientText{
+    padding-top: 8%;
+    .clientTitle{
+      @include title($second-color,$font-size*1.2);
+      // color:$second-color;
+      // font-size: $font-size*1.2;
+    }
+    .clientSubTitle{
+      @include subTitle($font-size*0.9);
+      color:white;
+      // padding-top: 2%;
+      // padding-bottom: 2%;
+      // font-size: $font-size*0.9;
+    }
+    img{
+      width: 10%;
+    }
+  }
+  .clientBtn{
+    padding: 3%;
+  }
+  .arrow{
+    padding-bottom: 3%;
+  }
+}

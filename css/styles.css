@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 6, ../sass/global.scss */
-.header, .service, .work, .pricing {
+.header, .service, .work, .pricing, .client {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -88,27 +88,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .header .collapse {
   justify-content: flex-end;
 }
-/* line 10, ../sass/_header.scss */
-.header .active a {
+/* line 11, ../sass/_header.scss */
+.header .active a span {
   color: #ff0051 !important;
+  padding-bottom: 5px;
   border-bottom: 1px solid;
 }
-/* line 15, ../sass/_header.scss */
+/* line 20, ../sass/_header.scss */
 .header .nav-link {
   color: gray;
 }
-/* line 18, ../sass/_header.scss */
-.header .nav-link:hover {
+/* line 22, ../sass/_header.scss */
+.header .nav-link span:hover {
   color: #ff0051 !important;
+  padding-bottom: 5px;
   border-bottom: 1px solid;
 }
-/* line 22, ../sass/_header.scss */
+/* line 33, ../sass/_header.scss */
 .header .nav-item {
   padding-left: 2%;
 }
 
 /* line 6, ../sass/global.scss */
-.header, .service, .work, .pricing {
+.header, .service, .work, .pricing, .client {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -146,7 +148,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 6, ../sass/global.scss */
-.header, .service, .work, .pricing {
+.header, .service, .work, .pricing, .client {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -163,26 +165,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   text-align: center;
   padding-bottom: 10%;
 }
-/* line 8, ../sass/_service.scss */
+/* line 9, ../sass/_service.scss */
 .service .serviceText {
   padding: 8%;
 }
-/* line 11, ../sass/_service.scss */
+/* line 12, ../sass/_service.scss */
 .service .serviceText .title {
   color: #ff0051;
   font-size: 19.2px;
 }
-/* line 16, ../sass/_service.scss */
+/* line 17, ../sass/_service.scss */
 .service .serviceText .subTitle {
   padding-top: 2%;
   padding-bottom: 2%;
   font-size: 14.4px;
 }
-/* line 22, ../sass/_service.scss */
+/* line 23, ../sass/_service.scss */
 .service .serviceText img {
   width: 10%;
 }
 /* line 29, ../sass/_service.scss */
+.service .dash img {
+  width: 30%;
+}
+/* line 33, ../sass/_service.scss */
+.service .downArrow {
+  padding: 5%;
+}
+/* line 39, ../sass/_service.scss */
 .service .vlhl-center .titleFix {
   font-size: 1em;
   font-family: sans-serif;
@@ -190,7 +200,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 6, ../sass/global.scss */
-.header, .service, .work, .pricing {
+.header, .service, .work, .pricing, .client {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -242,13 +252,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-size: cover;
   background-position: center;
 }
-/* line 28, ../sass/_work.scss */
+/* line 27, ../sass/_work.scss */
+.work .workPic1 .lspan {
+  font-size: 1.8em padd;
+}
+/* line 32, ../sass/_work.scss */
 .work .line {
   padding: 6%;
 }
 
 /* line 6, ../sass/global.scss */
-.header, .service, .work, .pricing {
+.header, .service, .work, .pricing, .client {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -263,7 +277,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 3, ../sass/_feature.scss */
 .feature {
   text-align: center;
-  padding-bottom: 8%;
+  padding-bottom: 0%;
 }
 /* line 6, ../sass/_feature.scss */
 .feature .featureText {
@@ -274,46 +288,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   color: #ff0051;
   font-size: 19.2px;
 }
-/* line 13, ../sass/_feature.scss */
+/* line 11, ../sass/_feature.scss */
 .feature .featureText .subTitle {
   padding-top: 2%;
   padding-bottom: 2%;
   font-size: 14.4px;
 }
-/* line 19, ../sass/_feature.scss */
+/* line 14, ../sass/_feature.scss */
 .feature .featureText img {
   width: 10%;
 }
-/* line 23, ../sass/_feature.scss */
+/* line 18, ../sass/_feature.scss */
 .feature .featureRight {
   background: url('../images/banner.png?1489567285');
   background-size: cover;
   background-position: center;
+  max-width: 100%;
   height: auto;
 }
-/* line 28, ../sass/_feature.scss */
+/* line 24, ../sass/_feature.scss */
 .feature .card {
   width: 15rem;
   text-align: left;
   border: 0;
+  margin: 0 auto;
 }
-/* line 33, ../sass/_feature.scss */
+/* line 30, ../sass/_feature.scss */
 .feature .paddingFix {
   padding-left: 10%;
 }
-/* line 36, ../sass/_feature.scss */
+/* line 33, ../sass/_feature.scss */
 .feature .iconTitle {
   font-weight: bold;
   padding: 5% 0;
 }
-/* line 40, ../sass/_feature.scss */
+/* line 37, ../sass/_feature.scss */
 .feature .iconSubTitle {
   color: gray;
   padding: 5% 0;
 }
 
 /* line 6, ../sass/global.scss */
-.header, .service, .work, .pricing {
+.header, .service, .work, .pricing, .client {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -328,24 +344,101 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 3, ../sass/_pricing.scss */
 .pricing {
   text-align: center;
+  padding-bottom: 8%;
 }
-/* line 6, ../sass/_pricing.scss */
+/* line 7, ../sass/_pricing.scss */
 .pricing .pricingText {
   padding-top: 8%;
   padding-bottom: 5%;
 }
-/* line 9, ../sass/_pricing.scss */
+/* line 10, ../sass/_pricing.scss */
 .pricing .pricingText .title {
   color: #ff0051;
   font-size: 19.2px;
 }
-/* line 14, ../sass/_pricing.scss */
+/* line 15, ../sass/_pricing.scss */
 .pricing .pricingText .subTitle {
   padding-top: 2%;
   padding-bottom: 2%;
   font-size: 14.4px;
 }
-/* line 20, ../sass/_pricing.scss */
+/* line 21, ../sass/_pricing.scss */
 .pricing .pricingText img {
   width: 10%;
+}
+/* line 25, ../sass/_pricing.scss */
+.pricing .card-title {
+  padding: 5%;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* line 30, ../sass/_pricing.scss */
+.pricing .card-text {
+  padding-bottom: 10%;
+}
+/* line 33, ../sass/_pricing.scss */
+.pricing .delTopLine {
+  border-top: 0px;
+}
+/* line 36, ../sass/_pricing.scss */
+.pricing .delBottomLine {
+  border-bottom: 0px;
+}
+/* line 40, ../sass/_pricing.scss */
+.pricing .list-group li {
+  justify-content: center;
+}
+/* line 45, ../sass/_pricing.scss */
+.pricing .priPic img {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 6, ../sass/global.scss */
+.header, .service, .work, .pricing, .client {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* line 10, ../sass/global.scss */
+.service .vlhl-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 3, ../sass/_client.scss */
+.client {
+  text-align: center;
+  background: url('../images/banner.png?1489567285');
+  background-size: cover;
+  background-position: center;
+}
+/* line 7, ../sass/_client.scss */
+.client .clientText {
+  padding-top: 8%;
+}
+/* line 9, ../sass/_client.scss */
+.client .clientText .clientTitle {
+  color: #ff0051;
+  font-size: 19.2px;
+}
+/* line 14, ../sass/_client.scss */
+.client .clientText .clientSubTitle {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 14.4px;
+  color: white;
+}
+/* line 21, ../sass/_client.scss */
+.client .clientText img {
+  width: 10%;
+}
+/* line 25, ../sass/_client.scss */
+.client .clientBtn {
+  padding: 3%;
+}
+/* line 28, ../sass/_client.scss */
+.client .arrow {
+  padding-bottom: 3%;
 }

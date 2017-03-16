@@ -8,16 +8,27 @@
   }
   .active{
     a{
-      color: $second-color !important;
-      border-bottom: 1px solid;
+      span{
+        color: $second-color !important;
+        padding-bottom: 5px;
+        border-bottom: 1px solid;
+      }
+      // color: $second-color !important;
+      // border-bottom: 1px solid;
     }
   }
   .nav-link{
     color: gray;
+    span:hover{
+      color: $second-color !important;
+      padding-bottom: 5px;
+      border-bottom: 1px solid;
+    }
   }
+
   .nav-link:hover{
-    color: $second-color !important;
-    border-bottom: 1px solid;
+    // color: $second-color !important;
+    // border-bottom: 1px solid;
   }
   .nav-item{
     padding-left: 2%;

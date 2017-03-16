@@ -5,6 +5,7 @@
   @extend %padding-fix;
   text-align: center;
   padding-bottom: 10%;
+
   .serviceText{
     padding: 8%;
 
@@ -24,6 +25,15 @@
     }
   }
 
+  .dash{
+    img{
+      width: 30%;
+    }
+  }
+  .downArrow{
+    padding: 5%;
+  }
+
   .vlhl-center{
     @extend %vlhl-center;
     .titleFix{
@@ -33,15 +43,6 @@
     }
   }
 
-  // .serCol{
-  //   height: 250px;
-  //   @extend %vlhl-center;
-  // }
-  //
-  // .colBorder{
-  //   border: 1px solid gray;
-  //   width: 100%;
-  //   height: 100%;
-  // }
+
 
 }
