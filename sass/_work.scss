@@ -1,0 +1,32 @@
+@import "global";
+
+.work{
+  @extend %padding-fix;
+  @include banner-background("banner.png");
+  @include banner-centerHeight(auto);
+  .workText{
+    padding-top: 8%;
+    .title{
+      @include title($second-color,$font-size*1.2);
+    }
+    .subTitle{
+      @include subTitle($font-size*0.9);
+      color: #FFF;
+    }
+    img{
+      width: 10%;
+    }
+  }
+  .workBtn{
+    padding: 3%;
+  }
+  .workPic1{
+    width: 100%;
+    height: 200px;
+    @include banner-background("banner.png");
+  }
+  .line{
+    padding: 6%;
+  }
+
+}

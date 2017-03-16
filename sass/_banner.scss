@@ -1,0 +1,20 @@
+@import "global";
+
+.banner{
+  @include banner-background("banner.png");
+  height: 500px;
+  text-align: center;
+  .bannerTitle1{
+    padding-top: 3%;
+    color: $primary-color;
+    font-size: $font-size*1.5;
+  }
+  img{
+    margin: 2%;
+  }
+  .bannerTitle2{
+    color: $primary-color;
+    font-size: $font-size*2;
+    font-weight: bold;
+  }
+}

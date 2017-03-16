@@ -1,0 +1,44 @@
+@import "global";
+
+.feature{
+  text-align: center;
+  padding-bottom: 8%;
+  .featureText{
+    padding: 8%;
+    .title{
+      @include title($second-color,$font-size*1.2);
+      // color:$second-color;
+      // font-size: $font-size*1.2;
+    }
+    .subTitle{
+      @include subTitle($font-size*0.9);
+      // padding-top: 2%;
+      // padding-bottom: 2%;
+      // font-size: $font-size*0.9;
+    }
+    img{
+      width: 10%;
+    }
+  }
+  .featureRight{
+    @include banner-background("banner.png");
+    height: auto;
+
+  }
+  .card{
+    width: 15rem;
+    text-align: left;
+    border:0;
+  }
+  .paddingFix{
+    padding-left: 10%;
+  }
+  .iconTitle{
+    font-weight: bold;
+    padding: 5% 0;
+  }
+  .iconSubTitle{
+    color: gray;
+    padding: 5% 0;
+  }
+}

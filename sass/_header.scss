@@ -1,0 +1,25 @@
+@import "global";
+
+.header{
+  @extend %padding-fix;
+  background:$primary-color;
+  .collapse{
+    justify-content: flex-end;
+  }
+  .active{
+    a{
+      color: $second-color !important;
+      border-bottom: 1px solid;
+    }
+  }
+  .nav-link{
+    color: gray;
+  }
+  .nav-link:hover{
+    color: $second-color !important;
+    border-bottom: 1px solid;
+  }
+  .nav-item{
+    padding-left: 2%;
+  }
+}

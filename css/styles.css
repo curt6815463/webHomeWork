@@ -1,0 +1,351 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../sass/global.scss */
+.header, .service, .work, .pricing {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* line 10, ../sass/global.scss */
+.service .vlhl-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 3, ../sass/_header.scss */
+.header {
+  background: white;
+}
+/* line 6, ../sass/_header.scss */
+.header .collapse {
+  justify-content: flex-end;
+}
+/* line 10, ../sass/_header.scss */
+.header .active a {
+  color: #ff0051 !important;
+  border-bottom: 1px solid;
+}
+/* line 15, ../sass/_header.scss */
+.header .nav-link {
+  color: gray;
+}
+/* line 18, ../sass/_header.scss */
+.header .nav-link:hover {
+  color: #ff0051 !important;
+  border-bottom: 1px solid;
+}
+/* line 22, ../sass/_header.scss */
+.header .nav-item {
+  padding-left: 2%;
+}
+
+/* line 6, ../sass/global.scss */
+.header, .service, .work, .pricing {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* line 10, ../sass/global.scss */
+.service .vlhl-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 3, ../sass/_banner.scss */
+.banner {
+  background: url('../images/banner.png?1489567285');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  text-align: center;
+}
+/* line 7, ../sass/_banner.scss */
+.banner .bannerTitle1 {
+  padding-top: 3%;
+  color: white;
+  font-size: 24px;
+}
+/* line 12, ../sass/_banner.scss */
+.banner img {
+  margin: 2%;
+}
+/* line 15, ../sass/_banner.scss */
+.banner .bannerTitle2 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* line 6, ../sass/global.scss */
+.header, .service, .work, .pricing {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* line 10, ../sass/global.scss */
+.service .vlhl-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 4, ../sass/_service.scss */
+.service {
+  text-align: center;
+  padding-bottom: 10%;
+}
+/* line 8, ../sass/_service.scss */
+.service .serviceText {
+  padding: 8%;
+}
+/* line 11, ../sass/_service.scss */
+.service .serviceText .title {
+  color: #ff0051;
+  font-size: 19.2px;
+}
+/* line 16, ../sass/_service.scss */
+.service .serviceText .subTitle {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 14.4px;
+}
+/* line 22, ../sass/_service.scss */
+.service .serviceText img {
+  width: 10%;
+}
+/* line 29, ../sass/_service.scss */
+.service .vlhl-center .titleFix {
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/* line 6, ../sass/global.scss */
+.header, .service, .work, .pricing {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* line 10, ../sass/global.scss */
+.service .vlhl-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 3, ../sass/_work.scss */
+.work {
+  background: url('../images/banner.png?1489567285');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: auto;
+}
+/* line 7, ../sass/_work.scss */
+.work .workText {
+  padding-top: 8%;
+}
+/* line 9, ../sass/_work.scss */
+.work .workText .title {
+  color: #ff0051;
+  font-size: 19.2px;
+}
+/* line 12, ../sass/_work.scss */
+.work .workText .subTitle {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 14.4px;
+  color: #FFF;
+}
+/* line 16, ../sass/_work.scss */
+.work .workText img {
+  width: 10%;
+}
+/* line 20, ../sass/_work.scss */
+.work .workBtn {
+  padding: 3%;
+}
+/* line 23, ../sass/_work.scss */
+.work .workPic1 {
+  width: 100%;
+  height: 200px;
+  background: url('../images/banner.png?1489567285');
+  background-size: cover;
+  background-position: center;
+}
+/* line 28, ../sass/_work.scss */
+.work .line {
+  padding: 6%;
+}
+
+/* line 6, ../sass/global.scss */
+.header, .service, .work, .pricing {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* line 10, ../sass/global.scss */
+.service .vlhl-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 3, ../sass/_feature.scss */
+.feature {
+  text-align: center;
+  padding-bottom: 8%;
+}
+/* line 6, ../sass/_feature.scss */
+.feature .featureText {
+  padding: 8%;
+}
+/* line 8, ../sass/_feature.scss */
+.feature .featureText .title {
+  color: #ff0051;
+  font-size: 19.2px;
+}
+/* line 13, ../sass/_feature.scss */
+.feature .featureText .subTitle {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 14.4px;
+}
+/* line 19, ../sass/_feature.scss */
+.feature .featureText img {
+  width: 10%;
+}
+/* line 23, ../sass/_feature.scss */
+.feature .featureRight {
+  background: url('../images/banner.png?1489567285');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+/* line 28, ../sass/_feature.scss */
+.feature .card {
+  width: 15rem;
+  text-align: left;
+  border: 0;
+}
+/* line 33, ../sass/_feature.scss */
+.feature .paddingFix {
+  padding-left: 10%;
+}
+/* line 36, ../sass/_feature.scss */
+.feature .iconTitle {
+  font-weight: bold;
+  padding: 5% 0;
+}
+/* line 40, ../sass/_feature.scss */
+.feature .iconSubTitle {
+  color: gray;
+  padding: 5% 0;
+}
+
+/* line 6, ../sass/global.scss */
+.header, .service, .work, .pricing {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* line 10, ../sass/global.scss */
+.service .vlhl-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 3, ../sass/_pricing.scss */
+.pricing {
+  text-align: center;
+}
+/* line 6, ../sass/_pricing.scss */
+.pricing .pricingText {
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+/* line 9, ../sass/_pricing.scss */
+.pricing .pricingText .title {
+  color: #ff0051;
+  font-size: 19.2px;
+}
+/* line 14, ../sass/_pricing.scss */
+.pricing .pricingText .subTitle {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 14.4px;
+}
+/* line 20, ../sass/_pricing.scss */
+.pricing .pricingText img {
+  width: 10%;
+}
