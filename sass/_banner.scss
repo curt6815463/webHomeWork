@@ -1,8 +1,11 @@
 @import "global";
 
 .banner{
-  @include banner-background("banner.png");
-  height: 500px;
+  .banBgr{
+    @include banner-background("banner.png");
+    height: 520px;
+    width: 100%;
+  }
   text-align: center;
   .bannerTitle1{
     padding-top: 3%;

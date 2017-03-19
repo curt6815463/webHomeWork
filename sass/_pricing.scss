@@ -47,5 +47,10 @@
       height: 100px;
     }
   }
+  .card-block:hover{
+    background: $second-color;
+    transition: background-color 1s;
+    color: #fff;
+  }
 
 }
