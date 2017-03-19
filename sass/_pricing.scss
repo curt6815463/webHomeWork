@@ -47,10 +47,30 @@
       height: 100px;
     }
   }
+  .priList{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    li{
+      padding-top: 7%;
+      padding-bottom: 7%;
+    }
+    .priListSec{
+      border-top: 1px solid rgba(0,0,0,0.125);
+      border-bottom: 1px solid rgba(0,0,0,0.125);
+    }
+    .priListThi{
+      border-bottom: 1px solid rgba(0,0,0,0.125);
+    }
+
+  }
+  button{
+    background-color: $second-color;
+  }
   .card-block:hover{
-    background: $second-color;
-    transition: background-color 1s;
-    color: #fff;
+    @include background-transition($second-color,$primary-color);
+  }
+  .card-block:hover button{
+    @include background-transition($primary-color,$second-color);
   }
 
 }

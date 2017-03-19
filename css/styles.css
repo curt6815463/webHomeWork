@@ -212,7 +212,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border: #000;
   background: #000;
 }
-/* line 51, ../sass/_service.scss */
+/* line 49, ../sass/_service.scss */
+.service .vlhl-center .card-img-top {
+  padding-top: 15%;
+}
+/* line 54, ../sass/_service.scss */
 .service .vlhl-center:hover {
   background: #ff0051;
   color: white;
@@ -264,21 +268,53 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .work .workBtn {
   padding: 3%;
 }
-/* line 23, ../sass/_work.scss */
+/* line 26, ../sass/_work.scss */
 .work .workPic1 {
+  z-index: 1;
   width: 100%;
   height: 200px;
   background: url('../images/banner.png?1489567285');
   background-size: cover;
   background-position: center;
 }
-/* line 27, ../sass/_work.scss */
+/* line 31, ../sass/_work.scss */
 .work .workPic1 .lspan {
-  font-size: 1.8em padd;
+  font-size: 1.8em;
 }
-/* line 32, ../sass/_work.scss */
+/* line 35, ../sass/_work.scss */
 .work .line {
   padding: 6%;
+}
+/* line 39, ../sass/_work.scss */
+.work .icon {
+  padding-top: 60%;
+}
+/* line 41, ../sass/_work.scss */
+.work .icon span {
+  padding: 3px;
+}
+/* line 44, ../sass/_work.scss */
+.work .icon .search {
+  border: 2px solid #fff;
+}
+/* line 46, ../sass/_work.scss */
+.work .icon .search i {
+  padding: 2px;
+}
+/* line 50, ../sass/_work.scss */
+.work .icon .big {
+  border: 2px solid #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 55, ../sass/_work.scss */
+.work .icon .love {
+  border: 2px solid #fff;
+}
+/* line 59, ../sass/_work.scss */
+.work button:hover {
+  background: #ff0051;
+  color: white;
 }
 
 /* line 7, ../sass/global.scss */
@@ -323,8 +359,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background: url('../images/banner.png?1489567285');
   background-size: cover;
   background-position: center;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 500px;
 }
 /* line 24, ../sass/_feature.scss */
 .feature .card {
@@ -414,10 +450,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 100px;
 }
 /* line 50, ../sass/_pricing.scss */
+.pricing .priList {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+/* line 53, ../sass/_pricing.scss */
+.pricing .priList li {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+/* line 57, ../sass/_pricing.scss */
+.pricing .priList .priListSec {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+/* line 61, ../sass/_pricing.scss */
+.pricing .priList .priListThi {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+/* line 66, ../sass/_pricing.scss */
+.pricing button {
+  background-color: #ff0051;
+}
+/* line 69, ../sass/_pricing.scss */
 .pricing .card-block:hover {
   background: #ff0051;
   transition: background-color 1s;
-  color: #fff;
+  color: white;
+}
+/* line 72, ../sass/_pricing.scss */
+.pricing .card-block:hover button {
+  background: white;
+  transition: background-color 1s;
+  color: #ff0051;
 }
 
 /* line 7, ../sass/global.scss */

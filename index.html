@@ -124,7 +124,7 @@
         <img src="images/underLine2.png" alt="">
       </div>
       <div class="card-deck">
-        <div class="card vlhl-center c1">
+        <div id="c1" class="card vlhl-center">
           <img class="card-img-top" src="images/s.png" alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title titleFix">Creative & awesome</h4>
@@ -138,7 +138,7 @@
             <div class="addBtn"></div>
           </div>
         </div>
-        <div class="card vlhl-center c2">
+        <div id="c2" class="card vlhl-center">
           <img class="card-img-top" src="images/s.png" alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title titleFix">Responsive Layout</h4>
@@ -152,7 +152,7 @@
             <div class="addBtn"></div>
           </div>
         </div>
-        <div class="card vlhl-center c3">
+        <div id="c3" class="card vlhl-center">
           <img class="card-img-top" src="images/s.png" alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title titleFix">Advanced Feature</h4>
@@ -166,8 +166,8 @@
             <div class="addBtn"></div>
           </div>
         </div>
-        <div class="card vlhl-center c4">
-          <img class="card-img-top" src="images/s.png" width="102" height="102" alt="Card image cap">
+        <div id="c4" class="card vlhl-center">
+          <img class="card-img-top" src="images/s.png" alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title titleFix">Multi-Purpose</h4>
             <div class="dash">
@@ -212,12 +212,27 @@
 
       <div class="card-deck">
         <div class="card vlhl-center">
-          <div class="workPic1"></div>
-          <div class="card-block">
-            <h4 class="card-title titleFix">Basic Stationery Branding</h4>
-            <pre>Branding  |  <i class="fa fa-heart" aria-hidden="true"></i>  214</pre>
-
+          <div class="mask">
+            <div class="workPic1">
+              <div class="icon">
+                <span class="search">
+                  <i class="fa fa-search" aria-hidden="true" style="color:white"></i>
+                </span>
+                <span class="big">
+                  <i class="fa fa-expand" aria-hidden="true" style="color:white"></i>
+                </span>
+                <span class="love">
+                  <i class="fa fa-heart" aria-hidden="true" style="color:white">&nbsp;5487</i>
+                </span>
+              </div>
+            </div>
+            <div class="card-block">
+              <h4 class="card-title titleFix">Basic Stationery Branding</h4>
+              <pre>Branding  |  <i class="fa fa-heart" aria-hidden="true"></i>  214</pre>
+            </div>
           </div>
+
+
         </div>
         <div class="card vlhl-center">
           <div class="workPic1"></div>
@@ -260,7 +275,7 @@
                   <div class="iconTitle">
                     Awesome Shortcodes
                   </div>
-                  <img src="images/underLine2.png" alt="" />
+                  <img src="images/underLine2.png" width="20%" alt="" />
                   <div class="iconSubTitle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, Integer, adipiscing trisique vel, eleifend sed turpis.
                   </div>
@@ -274,7 +289,7 @@
                   <div class="iconTitle">
                     Awesome Shortcodes
                   </div>
-                  <img src="images/underLine2.png" alt="" />
+                  <img src="images/underLine2.png" width="20%" alt="" />
                   <div class="iconSubTitle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, Integer, adipiscing trisique vel, eleifend sed turpis.
                   </div>
@@ -290,7 +305,7 @@
                   <div class="iconTitle">
                     Awesome Shortcodes
                   </div>
-                  <img src="images/underLine2.png" alt="" />
+                  <img src="images/underLine2.png" width="20%" alt="" />
                   <div class="iconSubTitle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, Integer, adipiscing trisique vel, eleifend sed turpis.
                   </div>
@@ -304,7 +319,7 @@
                   <div class="iconTitle">
                     Awesome Shortcodes
                   </div>
-                  <img src="images/underLine2.png" alt="" />
+                  <img src="images/underLine2.png" width="20%" alt="" />
                   <div class="iconSubTitle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, Integer, adipiscing trisique vel, eleifend sed turpis.
                   </div>
@@ -318,8 +333,8 @@
     </div>
     <div class="pricing">
       <div class="pricingText">
-        <div class="title">Our Core Feature</div>
-        <div class="subTitle">Awesome & Creative Services For You</div>
+        <div class="title">Our Pricing</div>
+        <div class="subTitle">Lets Talk About Business Now</div>
         <img src="images/underLine2.png" alt="">
       </div>
       <div class="card-deck">
@@ -331,11 +346,11 @@
             <div class="priPic">
               <img src="images/banner.png" class="rounded-circle">
             </div>
-            <ul class="list-group list-group-flush ">
-              <li class="list-group-item delTopLine">Users : 5</li>
-              <li class="list-group-item">Project : 10</li>
-              <li class="list-group-item">Space : 10GB</li>
-              <li class="list-group-item delBottomLine">Email Account : 5</li>
+            <ul class="priList">
+              <li>Users : 5</li>
+              <li class="priListSec">Project : 10</li>
+              <li class="priListThi">Space : 10GB</li>
+              <li>Email Account : 5</li>
             </ul>
             <button type="button" class="btn btn-danger">Order Plan</button>
           </div>
@@ -348,30 +363,11 @@
             <div class="priPic">
               <img src="images/banner.png" class="rounded-circle">
             </div>
-            <ul class="list-group list-group-flush ">
-              <li class="list-group-item delTopLine">Users : 5</li>
-              <li class="list-group-item">Project : 10</li>
-              <li class="list-group-item">Space : 10GB</li>
-              <li class="list-group-item delBottomLine">Email Account : 5</li>
-            </ul>
-            <button type="button" class="btn btn-danger">Order Plan</button>
-          </div>
-        </div>
-        <div class="card vlhl-center">
-          <div class="workPic1"></div>
-          <div class="card-block">
-
-
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Ideal for Personal Websites</p>
-            <div class="priPic">
-              <img src="images/banner.png" class="rounded-circle">
-            </div>
-            <ul class="list-group list-group-flush ">
-              <li class="list-group-item delTopLine">Users : 5</li>
-              <li class="list-group-item">Project : 10</li>
-              <li class="list-group-item">Space : 10GB</li>
-              <li class="list-group-item delBottomLine">Email Account : 5</li>
+            <ul class="priList">
+              <li>Users : 5</li>
+              <li class="priListSec">Project : 10</li>
+              <li class="priListThi">Space : 10GB</li>
+              <li>Email Account : 5</li>
             </ul>
             <button type="button" class="btn btn-danger">Order Plan</button>
           </div>
@@ -386,11 +382,30 @@
             <div class="priPic">
               <img src="images/banner.png" class="rounded-circle">
             </div>
-            <ul class="list-group list-group-flush ">
-              <li class="list-group-item delTopLine">Users : 5</li>
-              <li class="list-group-item">Project : 10</li>
-              <li class="list-group-item">Space : 10GB</li>
-              <li class="list-group-item delBottomLine">Email Account : 5</li>
+            <ul class="priList">
+              <li>Users : 5</li>
+              <li class="priListSec">Project : 10</li>
+              <li class="priListThi">Space : 10GB</li>
+              <li>Email Account : 5</li>
+            </ul>
+            <button type="button" class="btn btn-danger">Order Plan</button>
+          </div>
+        </div>
+        <div class="card vlhl-center">
+          <div class="workPic1"></div>
+          <div class="card-block">
+
+
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Ideal for Personal Websites</p>
+            <div class="priPic">
+              <img src="images/banner.png" class="rounded-circle">
+            </div>
+            <ul class="priList">
+              <li>Users : 5</li>
+              <li class="priListSec">Project : 10</li>
+              <li class="priListThi">Space : 10GB</li>
+              <li>Email Account : 5</li>
             </ul>
             <button type="button" class="btn btn-danger">Order Plan</button>
 
@@ -408,13 +423,12 @@
         <img src="images/underLine2.png" alt="">
       </div>
       <div class="clientBtn">
-        <button type="button" class="btn btn btn-secondary">ALL</button>
-        <button type="button" class="btn btn btn-secondary">Photography</button>
-        <button type="button" class="btn btn btn-secondary">Design</button>
-        <button type="button" class="btn btn btn-secondary">Development</button>
-        <button type="button" class="btn btn btn-secondary">Branding</button>
-        <button type="button" class="btn btn btn-secondary">Mobile App</button>
-        <button type="button" class="btn btn btn-secondary">Mock Ups</button>
+        <button type="button" class="btn btn btn-secondary"><i class="fa fa-align-justify" aria-hidden="true"></i> themeforest</button>
+        <button type="button" class="btn btn btn-secondary"><i class="fa fa-align-justify" aria-hidden="true"></i> photodune</button>
+        <button type="button" class="btn btn btn-secondary"><i class="fa fa-align-justify" aria-hidden="true"></i> audiojungle</button>
+        <button type="button" class="btn btn btn-secondary"><i class="fa fa-align-justify" aria-hidden="true"></i> codecanyon</button>
+        <button type="button" class="btn btn btn-secondary"><i class="fa fa-align-justify" aria-hidden="true"></i> graphicriver</button>
+        <button type="button" class="btn btn btn-secondary"><i class="fa fa-align-justify" aria-hidden="true"></i> 3docean</button>
       </div>
       <div class="arrow">
         <img src="images/2arrow.png" alt="" />
@@ -428,25 +442,49 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script>
     $(document).ready(function(){
-      $('.vlhl-center').hover(
+      $('#c1').hover(
         function() {
-          $('.hoverWord').html("87point,you can't not get any more.87point,you can't not get any more.");
-          $('.downArrow').empty();
-          $('.addBtn').append("<button type='button' class='btn btn btn-secondary'>Read More</button>")
+          $('#c1 .hoverWord').html("87point,you can't not get any more.87point,you can't not get any more.");
+          $('#c1 .downArrow').empty();
+          $('#c1 .addBtn').append("<button type='button' class='btn btn btn-secondary'>Read More</button>")
         },
         function (){
-          $('.hoverWord').html('');
-          $('.downArrow').append("<img src='images/downArrow.png' alt='' />");
-          $('.addBtn').empty();
+          $('#c1 .hoverWord').html('');
+          $('#c1 .downArrow').append("<img src='images/downArrow.png' alt='' />");
+          $('#c1 .addBtn').empty();
         }
-      );
-      $('.card-block').hover(
+      ),$('#c2').hover(
         function() {
-          $('.list-group-item').css("background-color", "#FF0051");
+          $('#c2 .hoverWord').html("87point,you can't not get any more.87point,you can't not get any more.");
+          $('#c2 .downArrow').empty();
+          $('#c2 .addBtn').append("<button type='button' class='btn btn btn-secondary'>Read More</button>")
         },
         function (){
-          $('.list-group-item').css("background-color", "#fff");
-
+          $('#c2 .hoverWord').html('');
+          $('#c2 .downArrow').append("<img src='images/downArrow.png' alt='' />");
+          $('#c2 .addBtn').empty();
+        }
+      ),$('#c3').hover(
+        function() {
+          $('#c3 .hoverWord').html("87point,you can't not get any more.87point,you can't not get any more.");
+          $('#c3 .downArrow').empty();
+          $('#c3 .addBtn').append("<button type='button' class='btn btn btn-secondary'>Read More</button>")
+        },
+        function (){
+          $('#c3 .hoverWord').html('');
+          $('#c3 .downArrow').append("<img src='images/downArrow.png' alt='' />");
+          $('#c3 .addBtn').empty();
+        }
+      ),$('#c4').hover(
+        function() {
+          $('#c4 .hoverWord').html("87point,you can't not get any more.87point,you can't not get any more.");
+          $('#c4 .downArrow').empty();
+          $('#c4 .addBtn').append("<button type='button' class='btn btn btn-secondary'>Read More</button>")
+        },
+        function (){
+          $('#c4 .hoverWord').html('');
+          $('#c4 .downArrow').append("<img src='images/downArrow.png' alt='' />");
+          $('#c4 .addBtn').empty();
         }
       );
     });
