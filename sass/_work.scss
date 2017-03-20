@@ -56,8 +56,10 @@
       border:2px solid #fff;
     }
   }
+  button{
+    margin-right: 10px;
+  }
   button:hover{
-    background: $second-color;
-    color:$primary-color;
+    @include background-transition($second-color,$primary-color);
   }
 }
